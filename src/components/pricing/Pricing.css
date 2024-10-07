@@ -1,0 +1,9 @@
+.class-button {
+  width: Fixed (285px) px;
+  height: Fixed (370px) px;
+  padding: 40px 0px 0px 0px;
+  gap: 0px;
+  border-radius: 24px 0px 0px 0px;
+  justify: space-between;
+  opacity: 0px;
+}

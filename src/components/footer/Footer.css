@@ -1,0 +1,14 @@
+#footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 68px;
+  width: 81px;
+  background-color: #1d1818;
+}
+
+#facebook-logo {
+  display: flex;
+  height: 44px;
+  background-color: #303030;
+}
