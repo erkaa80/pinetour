@@ -1,9 +1,54 @@
-.class-button {
-  width: Fixed (285px) px;
-  height: Fixed (370px) px;
-  padding: 40px 0px 0px 0px;
-  gap: 0px;
-  border-radius: 24px 0px 0px 0px;
-  justify: space-between;
-  opacity: 0px;
+#pricing-container {
+  padding-top: 200px;
+  padding-bottom: 300px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#pricing-cards {
+  margin-top: 100px;
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  width: 285px;
+  height: 370px;
+  border-radius: 24px;
+  border: none;
+  background-color: #fff;
+  border: 2px solid #fff;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 42px;
+  color: #303030;
+}
+
+.card li {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 35px;
+  color: #777777;
+}
+
+.card-price {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39.01px;
+  color: #303030;
+  text-align: end;
+}
+
+.card:hover {
+  border: 2px solid #18ba51;
 }

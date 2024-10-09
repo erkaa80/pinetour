@@ -1,3 +1,4 @@
-export * from "./header-logo";
-export * from "./footer-logo";
-export * from "./facebook";
+export * from "./HeaderLogo";
+export * from "./FooterLogo";
+export * from "./FacebookLogo";
+export * from "./InstagramLogo";
